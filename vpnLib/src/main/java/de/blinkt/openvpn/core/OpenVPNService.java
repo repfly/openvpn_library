@@ -334,7 +334,7 @@ public class OpenVPNService extends VpnService implements StateListener, Callbac
         if (when != 0) nbuilder.setWhen(when);
 
         jbNotificationExtras(priority, nbuilder);
-        addVpnActionsToNotification(nbuilder);
+        // addVpnActionsToNotification(nbuilder);
        
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP)

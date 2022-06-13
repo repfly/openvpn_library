@@ -21,7 +21,7 @@
             </intent-filter>
         </service>
 
-        <activity
+        <!-- <activity
             android:name=".LaunchVPN"
             android:excludeFromRecents="true"
             android:exported="true"
@@ -39,7 +39,7 @@
             android:noHistory="true"
             android:exported="true"
             android:taskAffinity=".DisconnectVPN"
-            android:theme="@style/blinkt.dialog" />
+            android:theme="@style/blinkt.dialog" /> -->
     </application>
 
 </manifest>
